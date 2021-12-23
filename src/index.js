@@ -1,4 +1,11 @@
-import './style';
-import App from './components/app';
+import "./style";
+import App from "./components/app";
+import { Path } from "./ctx/path";
 
-export default App;
+export default () => {
+  return (
+    <Path>
+      <App />
+    </Path>
+  );
+};
