@@ -1,0 +1,25 @@
+.fileSystem {
+  margin-top: 58px;
+}
+
+.fileSystem button {
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+.fileSystem button:active {
+  opacity: 0.6;
+}
+.fileSystem button.primary {
+  background-color: #00b7ff;
+}
+.fileSystem button.info {
+  background-color: #6ac008;
+}
+.fileSystem button.info:disabled {
+  background-color: #aaa;
+}
+
+/*# sourceMappingURL=index.css.map */
